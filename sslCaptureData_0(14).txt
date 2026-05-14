@@ -1,0 +1,42 @@
+
+
+Request Head:
+
+OPTIONS /lbs/webconf.jsp?k=6607b59804ba4209159076ba3c11d37e&id=online_14186923&sv=180&pv=1&networkType=0&lv=1 HTTP/1.1
+Host: lbs-sdk.netease.im
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: content-type
+Origin: https://web.vava.chat
+User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Dest: empty
+Referer: https://web.vava.chat/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,id;q=0.8
+
+
+Body:
+
+
+
+Response Head:
+
+HTTP/1.1 200 
+Date: Thu, 14 May 2026 06:41:55 GMT
+Content-Length: 0
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Access-Control-Allow-Origin: https://web.vava.chat
+Access-Control-Allow-Methods: GET
+Access-Control-Allow-Headers: content-type
+Access-Control-Expose-Headers: Access-Control-Allow-Origin, Access-Control-Allow-Credentials
+Access-Control-Allow-Credentials: true
+
+
+Body:
+

@@ -1,0 +1,59 @@
+
+
+Request Head:
+
+GET /assets/js/MatchingPage-BXzmRf4k.js HTTP/1.1
+Host: web.vava.chat
+Connection: keep-alive
+Origin: https://web.vava.chat
+sec-ch-ua-platform: "Android"
+Save-Data: on
+User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36
+Accept: */*
+sec-ch-ua: "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"
+sec-ch-ua-mobile: ?1
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,id;q=0.8
+Cookie: vb_did=1778551306611_OuoKQJKhG0MA5SAg; vb_pwa_session=%7B%22userId%22%3A14186923%2C%22authToken%22%3A%221f3060ad97524a16824dd0154eb7b3d4%22%2C%22nimToken%22%3A%2294ec3828b8852283431255931e665b5b%22%2C%22displayName%22%3A%22userihXxke18%22%2C%22profilePicture%22%3A%22public%2Fapp%2Fvvh_default_avatar.png%22%2C%22genderType%22%3A1%2C%22ageValue%22%3A18%7D
+
+
+Body:
+
+
+
+Response Head:
+
+HTTP/1.1 200 OK
+Content-Type: application/javascript
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Mon, 11 May 2026 09:31:12 GMT
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: PUT, POST, DELETE, GET
+Access-Control-Expose-Headers: x-amz-server-side-encryption, x-amz-request-id, x-amz-id-2
+Access-Control-Max-Age: 1000
+Cache-Control: public, max-age=31536000, immutable
+Last-Modified: Mon, 11 May 2026 09:29:55 GMT
+Server: AmazonS3
+Content-Encoding: br
+ETag: W/"b7e3c0999540fe3119bb3724ab060228"
+Vary: Accept-Encoding
+X-Cache: Hit from cloudfront
+Via: 1.1 c6c35be748f09cb1f760cda46ef336c6.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: CGK51-P4
+X-Amz-Cf-Id: 3iEncdH733-YLKVrd3uEEMVHCOK8nWRssd20-ApdOn0a5tPrHsfhnw==
+Age: 248879
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Referrer-Policy: strict-origin-when-cross-origin
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000
+
+
+Body:
+
+import{I as at,s as V,h as L,f as st,c as nt}from"./vant-bd69nkg_.js";import{k as it,w as T,o as ot,a as ct,M as g,N as lt,Q as a,a2 as M,u as k,j as w,Z as S,P as rt,a1 as I,F as ut,a0 as dt,O as ht,R as F,T as mt,L as gt,r as f,e as Q,W as h}from"./vendor-DDjyrap6.js";import{b as ft,q as pt,u as vt,n as bt,k as _t,J as yt,ae as Tt,V as Mt,af as A,_ as kt}from"./index-CKzc7uzi.js";import{i as wt}from"./helpers-CWR7VMfO.js";import"./libs-WiSspisD.js";import"./locale-en-blf7NVB5.js";(function(){try{var u=typeof window!="undefined"?window:typeof global!="undefined"?global:typeof globalThis!="undefined"?globalThis:typeof self!="undefined"?self:{};u.SENTRY_RELEASE={id:"chat_h5@1.6.0"};var n=new u.Error().stack;n&&(u._sentryDebugIds=u._sentryDebugIds||{},u._sentryDebugIds[n]="9506dc03-664d-4a0c-b9d5-ec043331bb0e",u._sentryDebugIdIdentifier="sentry-dbid-9506dc03-664d-4a0c-b9d5-ec043331bb0e")}catch(x){}})();const St="/assets/webp/matching_bg-DiiMwm9x.webp",U="/assets/webp/map_dark_scroll-BuW54GUq.webp",It={class:"matching-page"},At={class:"bg-map-wrap"},xt={class:"bg-map-track"},Ct={class:"matching-header"},Rt={class:"header-center"},Bt={key:0,class:"header-pill"},Et={class:"pill-text pill-text--upper"},Dt={class:"pill-time"},$t={class:"animation-container"},Nt={class:"orbit-avatar"},Vt={class:"avatar-placeholder"},Lt={class:"center-indicator"},Pt={class:"center-dot"},zt={class:"bottom-section"},Gt={class:"actions"},Wt={class:"btn-label"},Ft=it({__name:"MatchingPage",setup(u){const{t:n}=ft(),x=pt(),d=gt(),q=vt(),s=bt(),{showQuickRecharge:K}=_t(),C=f(!1),p=f(0),Y=f(!1),R=f(!1);let m=null;const b=f([]),j=[16,272,184,86,330,125],P=[1,2,2,2,3,3],J=[34,64,100,140];async function O(){try{const e=await yt();if(e.isSuccess&&e.result){const i=(e.result||[]).slice(0,20).map(r=>r.profilePicture||"");if(i.length<6)for(;i.length<6;)i.push(i[i.length%Math.max(i.length,1)]||"");b.value=Array.from({length:6},(r,o)=>{var c,y,G,W;return{id:o,url:i[o%i.length]||"",angleDeg:(c=j[o])!=null?c:o*60,radius:(G=J[(y=P[o])!=null?y:2])!=null?G:100,ringIndex:(W=P[o])!=null?W:2,visible:!1,rotating:!1}})}}catch(e){}}function B(){Y.value=!0,b.value.forEach((e,t)=>{setTimeout(()=>{e.visible=!0,setTimeout(()=>{e.rotating=!0},1e3)},t*800)}),setTimeout(()=>{R.value=!0},500)}function Z(){R.value=!1,b.value.forEach(e=>{e.rotating=!1})}async function _(){var t,i;C.value=!0;const e=s.generateMatchingRoundId();try{const r=await Tt(e);if(r.isSuccess)s.setStatus("matching"),X();else{const o=r.result,c=(t=o==null?void 0:o.status)!=null?t:0,y=(i=o==null?void 0:o.description)!=null?i:"";H(c,y)}}catch(r){V(n("common.networkError"))}finally{C.value=!1}}function H(e,t){e===707?L({title:n("match.unableToMatch"),message:n("match.noQuota"),confirmButtonText:n("common.ok"),showCancelButton:!1}).then(()=>l()).catch(()=>l()):e===739?L({title:n("common.notice"),message:t||n("match.busy"),confirmButtonText:n("match.goToChat"),cancelButtonText:n("match.continueWaiting")}).then(()=>{d.replace("/"+(x.lastTabRoute||"session"))}).catch(()=>{_()}):e===680?l():e===545||e===4001||e===4003?(l(),K({scene:Mt.matchNoCoin,source:"general"})):t?(V(t),l()):(V(n("match.unableToStart")),l())}function X(){p.value=0,m&&clearInterval(m),m=setInterval(()=>{p.value++,p.value>=300&&s.handleMatchTimeout()},1e3)}function v(){m&&(clearInterval(m),m=null),p.value=0}function tt(e){const t=Math.floor(e/60),i=e%60;return t>0?`${t}:${i.toString().padStart(2,"0")}`:`${i}s`}const E=Q(()=>s.isMatching);function l(){(s.isMatching||s.isMatched)&&A("Manual").catch(()=>{}),s.setStatus("idle"),s.resetMatchData(),v(),d.back()}T(()=>s.status,e=>{(e==="calling"||e==="inCall")&&s.currentCallArgs&&Z()}),T(()=>s.matchExpired,e=>{if(!e)return;if(v(),s.clearMatchExpired(),s.hasActiveCall){s.isMatching&&(A("Timeout").catch(()=>{}),s.setStatus("idle"));return}if(!s.isMatching)return;const t=q.isMale;t||(A("Timeout").catch(()=>{}),s.setStatus("idle"),d.back()),L({message:n(t?"match.busyKeepWaiting":"match.queueLong"),confirmButtonText:n(t?"match.keepWaiting":"match.goToChat"),cancelButtonText:n(t?"match.tryLater":"nav.match")}).then(()=>{t?(_(),B()):d.replace("/"+(x.lastTabRoute||"session"))}).catch(()=>{t?(A("Timeout").catch(()=>{}),s.setStatus("idle"),d.back()):d.push("/matching")})}),T(()=>s.shouldRestartMatching,e=>{e&&(s.clearRestartSignal(),v(),_(),B())}),T(()=>s.status,(e,t)=>{t==="matching"&&e!=="matching"&&v()});const D=["match.tipFinding","match.tipConnecting","match.tipSearching","match.tipAlmost","match.tipGreat"],$=f(0),z=Q(()=>n(D[$.value%D.length]));let N=null;function et(){N=setInterval(()=>{$.value=($.value+1)%D.length},8e3)}return ot(async()=>{if(s.hasActiveCall){d.back();return}(s.isInCall||s.callPhase==="ended")&&s.reset(),_(),O().then(()=>B()),et()}),ct(()=>{v(),N&&clearInterval(N)}),(e,t)=>{const i=at,r=st,o=nt;return h(),g("div",It,[t[4]||(t[4]=lt('<div class="ambient-orbs" data-v-29fa79d5><div class="orb orb-1" data-v-29fa79d5></div><div class="orb orb-2" data-v-29fa79d5></div><div class="orb orb-3" data-v-29fa79d5></div></div><div class="bg-base" data-v-29fa79d5></div>',2)),a("div",At,[a("div",xt,[a("div",{class:"bg-map-tile",style:M({backgroundImage:`url(${k(U)})`})},null,4),a("div",{class:"bg-map-tile",style:M({backgroundImage:`url(${k(U)})`})},null,4)])]),t[5]||(t[5]=a("div",{class:"bg-vignette"},null,-1)),a("div",Ct,[a("button",{class:"back-btn",onClick:l},[w(i,{name:"arrow-left",size:"20",color:"rgba(255,255,255,0.7)"})]),a("div",Rt,[E.value?(h(),g("div",Bt,[t[0]||(t[0]=a("span",{class:"pill-dot"},null,-1)),a("span",Et,S(e.$t("match.matching")),1),a("span",Dt,S(tt(p.value)),1)])):rt("",!0)]),t[1]||(t[1]=a("div",{class:"header-spacer"},null,-1))]),a("div",$t,[a("div",{class:"radar-bg",style:M({backgroundImage:`url(${k(St)})`})},null,4),a("div",{class:I(["sweep-container",{active:R.value}])},[...t[2]||(t[2]=[a("div",{class:"sweep-gradient"},null,-1)])],2),(h(!0),g(ut,null,dt(b.value,c=>(h(),g("div",{key:c.id,class:I(["orbit-avatar-wrapper",{visible:c.visible,rotating:c.rotating}]),style:M({"--initial-angle":`${c.angleDeg}deg`,"--orbit-radius":`${c.radius}px`,"--entrance-delay":`${c.id*.8}s`})},[a("div",Nt,[w(r,{src:k(wt)(c.url,{width:50}),round:"",width:"50",height:"50",fit:"cover",class:"avatar-img"},{error:F(()=>[a("div",Vt,[w(i,{name:"user-o",size:"22",color:"rgba(255,255,255,0.3)"})])]),_:1},8,["src"])])],6))),128)),a("div",Lt,[a("div",{class:I(["center-glow",{active:E.value}])},null,2),a("div",Pt,[C.value?(h(),ht(o,{key:0,type:"spinner",size:"24",color:"#A338FC"})):(h(),g("div",{key:1,class:I(["center-ripple",{active:E.value}])},[...t[3]||(t[3]=[a("span",null,null,-1),a("span",null,null,-1)])],2))])])]),a("div",zt,[w(mt,{name:"tip-fade",mode:"out-in"},{default:F(()=>[(h(),g("p",{class:"tip-text",key:z.value},S(z.value),1))]),_:1}),a("div",Gt,[a("button",{class:"action-btn cancel",onClick:l},[a("span",Wt,S(e.$t("common.exit")),1)])])])])}}}),Jt=kt(Ft,[["__scopeId","data-v-29fa79d5"]]);export{Jt as default};
+//# sourceMappingURL=MatchingPage-BXzmRf4k.js.map

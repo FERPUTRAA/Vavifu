@@ -1,0 +1,56 @@
+
+
+Request Head:
+
+POST /api/v3/event/report/batch HTTP/1.1
+Host: web.vava.chat
+Connection: keep-alive
+Content-Length: 423
+sec-ch-ua-platform: "Android"
+sec-ch-ua: "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"
+sec-ch-ua-mobile: ?1
+baggage: sentry-environment=production,sentry-release=chat_h5%401.6.0,sentry-public_key=0ff69de69669bb6b08ecefb94db898f2,sentry-trace_id=0f3c135bf70a49409530d08543c432fa,sentry-transaction=discover,sentry-sampled=true,sentry-sample_rand=0.16592130165277397,sentry-sample_rate=0.5
+sentry-trace: 0f3c135bf70a49409530d08543c432fa-91f41214b56439a5-1
+Save-Data: on
+User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36
+Content-Type: application/x-protobuf
+Accept: */*
+Origin: https://web.vava.chat
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://web.vava.chat/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,id;q=0.8
+Cookie: vb_did=1778551306611_OuoKQJKhG0MA5SAg; vb_pwa_session=%7B%22userId%22%3A14186923%2C%22authToken%22%3A%221f3060ad97524a16824dd0154eb7b3d4%22%2C%22nimToken%22%3A%2294ec3828b8852283431255931e665b5b%22%2C%22displayName%22%3A%22userihXxke18%22%2C%22profilePicture%22%3A%22public%2Fapp%2Fvvh_default_avatar.png%22%2C%22genderType%22%3A1%2C%22ageValue%22%3A18%7D
+
+
+Body:
+
+
+
+/storage/emulated/0/Android/data/com.minhui.networkcapture/cache/NetCapture/ParseData/2026_05_14_13_37_09_9/com.android.chrome/TCP_3.168.203.123_re_443_lo_48316/request_1951031917_contentFile
+
+
+
+Response Head:
+
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Via: 1.1 47f68bdbcfe6176e6639d5b3c3575d7c.cloudfront.net (CloudFront), 1.1 1cca363823d960c2520bb660f481276a.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: CGK50-P1
+Date: Thu, 14 May 2026 06:38:26 GMT
+X-Cache: Miss from cloudfront
+X-Amz-Cf-Pop: CGK51-P4
+X-Amz-Cf-Id: 9U1GBlzSSAUrAw_ysq0DMvi2__XFJVtZewC6qSGU_Wtegr8Ji4jyLA==
+
+
+Body:
+
+{
+	"status":200,
+	"message":"success",
+	"data":null
+}

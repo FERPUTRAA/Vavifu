@@ -1,0 +1,46 @@
+
+
+Request Head:
+
+GET /public/app/picture/260306/177277329130310304448R2430.jpg?x-oss-process=image/resize,w_360,m_lfit HTTP/1.1
+Host: img.vervachat.com
+Connection: keep-alive
+sec-ch-ua-platform: "Android"
+Save-Data: on
+User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"
+sec-ch-ua-mobile: ?1
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Sec-Fetch-Storage-Access: active
+Referer: https://web.vava.chat/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,id;q=0.8
+
+
+Body:
+
+
+
+Response Head:
+
+HTTP/1.1 200 OK
+Content-Type: jpeg
+Content-Length: 36333
+Connection: keep-alive
+Date: Thu, 14 May 2026 06:38:30 GMT
+Apigw-Requestid: dV4cEiQ3IAMEVmQ=
+X-Cache: Miss from cloudfront
+Via: 1.1 9ee384ba600c40ff75c56f2bdd50c342.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: CGK50-P3
+X-Amz-Cf-Id: idrfN-e6Ih-WjqS3kikt3g0j3dxlZIIm_1fH01PJoVfRCvuN0wcyVA==
+
+
+Body:
+
+
+
+/storage/emulated/0/Android/data/com.minhui.networkcapture/cache/NetCapture/ParseData/2026_05_14_13_37_09_9/com.android.chrome/TCP_18.64.37.123_re_443_lo_41148/response_2138316980_contentFile
+

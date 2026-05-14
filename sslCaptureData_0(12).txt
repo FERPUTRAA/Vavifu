@@ -1,0 +1,55 @@
+
+
+Request Head:
+
+POST /api/17/envelope/?sentry_version=7&sentry_key=0ff69de69669bb6b08ecefb94db898f2&sentry_client=sentry.javascript.vue%2F10.50.0 HTTP/1.1
+Host: sentry.goparty.tech
+Connection: keep-alive
+Content-Length: 492
+sec-ch-ua-platform: "Android"
+Save-Data: on
+User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"
+Content-Type: text/plain;charset=UTF-8
+sec-ch-ua-mobile: ?1
+Accept: */*
+Origin: https://web.vava.chat
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://web.vava.chat/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,id;q=0.8
+
+
+Body:
+
+{
+	"sent_at":"2026-05-14T06:41:35.603Z",
+	"sdk":{
+		"name":"sentry.javascript.vue",
+		"version":"10.50.0"
+	}
+}
+{
+	"type":"session"
+}
+{
+	"sid":"8a93e96c74364ed38f6da971b722b395",
+	"init":false,
+	"started":"2026-05-14T06:39:49.074Z",
+	"timestamp":"2026-05-14T06:41:35.602Z",
+	"status":"crashed",
+	"errors":1,
+	"attrs":{
+		"release":"chat_h5@1.6.0",
+		"environment":"production",
+		"ip_address":"{
+			{
+				auto
+			}
+		}",
+		"user_agent":"Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML,
+		 like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36"
+	}
+}

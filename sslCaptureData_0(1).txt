@@ -1,0 +1,145 @@
+
+
+Request Head:
+
+GET /api/v1/client/reco/women/config/location HTTP/1.1
+Host: web.vava.chat
+Connection: keep-alive
+applicationLanguage: en
+sec-ch-ua-platform: "Android"
+deviceCategory: 0
+sec-ch-ua: "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"
+packageName: com.vava.chat.web
+accessToken: jDi/MfhuYlHAvoGKIDH83U9vt6pJ1lDwVYHKu8NC0Tk=
+sec-ch-ua-mobile: ?1
+baggage: sentry-environment=production,sentry-release=chat_h5%401.6.0,sentry-public_key=0ff69de69669bb6b08ecefb94db898f2,sentry-trace_id=14a17803578a4499b845ab4a050f9803,sentry-transaction=discover,sentry-sampled=false,sentry-sample_rand=0.8595238977374842,sentry-sample_rate=0.5
+deviceId: 2b61d981-b45f-46ec-16ee-b63f4b71d186
+requestTimestamp: 1778744451410
+appPackageName: com.vava.chat.web
+appVersion: 1.0.0
+sentry-trace: 14a17803578a4499b845ab4a050f9803-8bd1d788bc313397-0
+Accept: application/json, text/plain, */*
+channel: vvh
+userLanguage: en-US
+authToken: 1f3060ad97524a16824dd0154eb7b3d4
+operatingPlatform: app
+randomNonce: 5xrmpDPM
+Save-Data: on
+User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36
+userId: 14186923
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://web.vava.chat/?adjust_referrer=adjust_external_click_id%3DCjwKCAjw5ZXQBhBdEiwAI5XVWaSO7MYYWcvzNs2Iotgwmn38jthN1W8_Th_HjLVF-Gv04NkdQH39VxoCH4QQAvD_BwE&gad_source=1&gad_campaignid=23775028524&gbraid=0AAAABDNnier33OOZ9U19gCOMXzsJMnxwd&gclid=CjwKCAjw5ZXQBhBdEiwAI5XVWaSO7MYYWcvzNs2Iotgwmn38jthN1W8_Th_HjLVF-Gv04NkdQH39VxoCH4QQAvD_BwE
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,id;q=0.8
+Cookie: vb_did=1778551306611_OuoKQJKhG0MA5SAg; vb_pwa_session=%7B%22userId%22%3A14186923%2C%22authToken%22%3A%221f3060ad97524a16824dd0154eb7b3d4%22%2C%22nimToken%22%3A%2294ec3828b8852283431255931e665b5b%22%2C%22displayName%22%3A%22userihXxke18%22%2C%22profilePicture%22%3A%22public%2Fapp%2Fvvh_default_avatar.png%22%2C%22genderType%22%3A1%2C%22ageValue%22%3A18%7D
+
+
+Body:
+
+
+
+Response Head:
+
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Via: 1.1 0cb36e017d33ebb42d404c4181a32fa6.cloudfront.net (CloudFront), 1.1 2626dcc6e4570f5ed36d6638cbba12da.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: CGK50-P1
+Date: Thu, 14 May 2026 07:41:08 GMT
+content-encoding: gzip
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+vary: Accept-Encoding
+X-Cache: Miss from cloudfront
+X-Amz-Cf-Pop: CGK51-P4
+X-Amz-Cf-Id: 3UoQngeoaLyAFoEPgjQwIleKsGUKoU9fepziHbz2ZtAjnVDP3eMcPQ==
+
+
+Body:
+
+{
+	"data":[
+		{
+			"regionCode":"All",
+			"locationNameValue":"All"
+		},
+		{
+			"regionCode":"BR",
+			"superableSprinkleproof":"public/picture/flag/BR.png",
+			"whart":"public/picture/flag_round/BR.png",
+			"locationNameValue":"Brazil"
+		},
+		{
+			"regionCode":"MX",
+			"superableSprinkleproof":"public/picture/flag/MX.png",
+			"whart":"public/picture/flag_round/MX.png",
+			"locationNameValue":"Mexico"
+		},
+		{
+			"regionCode":"VE",
+			"superableSprinkleproof":"public/picture/flag/VE.png",
+			"whart":"public/picture/flag_round/VE.png",
+			"locationNameValue":"Venezuela"
+		},
+		{
+			"regionCode":"CO",
+			"superableSprinkleproof":"public/picture/flag/CO.png",
+			"whart":"public/picture/flag_round/CO.png",
+			"locationNameValue":"Colombia"
+		},
+		{
+			"regionCode":"AR",
+			"superableSprinkleproof":"public/picture/flag/AR.png",
+			"whart":"public/picture/flag_round/AR.png",
+			"locationNameValue":"Argentina"
+		},
+		{
+			"regionCode":"SY",
+			"superableSprinkleproof":"public/picture/flag/SY.png",
+			"whart":"public/picture/flag_round/SY.png",
+			"locationNameValue":"Syria"
+		},
+		{
+			"regionCode":"EG",
+			"superableSprinkleproof":"public/picture/flag/EG.png",
+			"whart":"public/picture/flag_round/EG.png",
+			"locationNameValue":"Egypt"
+		},
+		{
+			"regionCode":"MA",
+			"superableSprinkleproof":"public/picture/flag/MA.png",
+			"whart":"public/picture/flag_round/MA.png",
+			"locationNameValue":"Morocco"
+		},
+		{
+			"regionCode":"PH",
+			"superableSprinkleproof":"public/picture/flag/PH.png",
+			"whart":"public/picture/flag_round/PH.png",
+			"locationNameValue":"Philippines"
+		},
+		{
+			"regionCode":"VN",
+			"superableSprinkleproof":"public/picture/flag/VN.png",
+			"whart":"public/picture/flag_round/VN.png",
+			"locationNameValue":"Vietnam"
+		},
+		{
+			"regionCode":"ID",
+			"superableSprinkleproof":"public/picture/flag/ID.png",
+			"whart":"public/picture/flag_round/ID.png",
+			"locationNameValue":"Indonesia"
+		},
+		{
+			"regionCode":"Other",
+			"superableSprinkleproof":"public/picture/flag/Other.png",
+			"whart":"public/picture/flag/Other.png",
+			"locationNameValue":"Others"
+		}
+	],
+	"message":"success",
+	"status":200
+}
