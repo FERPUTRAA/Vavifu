@@ -1,0 +1,57 @@
+
+
+Request Head:
+
+GET /assets/js/nim-Dun2FpLY.js HTTP/1.1
+Host: web.vava.chat
+Connection: keep-alive
+Origin: https://web.vava.chat
+sec-ch-ua-platform: "Android"
+Save-Data: on
+User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36
+Accept: */*
+sec-ch-ua: "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"
+sec-ch-ua-mobile: ?1
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,id;q=0.8
+Cookie: vb_did=1778551306611_OuoKQJKhG0MA5SAg; vb_pwa_session=%7B%22userId%22%3A14186923%2C%22authToken%22%3A%221f3060ad97524a16824dd0154eb7b3d4%22%2C%22nimToken%22%3A%2294ec3828b8852283431255931e665b5b%22%2C%22displayName%22%3A%22userihXxke18%22%2C%22profilePicture%22%3A%22public%2Fapp%2Fvvh_default_avatar.png%22%2C%22genderType%22%3A1%2C%22ageValue%22%3A18%7D
+
+
+Body:
+
+
+
+Response Head:
+
+HTTP/1.1 200 OK
+Content-Type: application/javascript
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Thu, 30 Apr 2026 04:45:41 GMT
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: PUT, POST, DELETE, GET
+Access-Control-Expose-Headers: x-amz-server-side-encryption, x-amz-request-id, x-amz-id-2
+Access-Control-Max-Age: 1000
+Cache-Control: public, max-age=31536000, immutable
+Last-Modified: Thu, 30 Apr 2026 04:44:57 GMT
+Server: AmazonS3
+Content-Encoding: br
+ETag: W/"2929ad87a854f179cbd3a73272cf766e"
+Vary: Accept-Encoding
+X-Cache: Hit from cloudfront
+Via: 1.1 78ffd64f74b6fee6e21c1f2c6d332e6a.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: CGK51-P4
+X-Amz-Cf-Id: atDREYXhnYfeoOBeCe8cYPp1gbfJoUMksD1df3Cb1Tl41FQOcXbrsw==
+Age: 1216133
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Referrer-Policy: strict-origin-when-cross-origin
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000
+
+
+Body:
+

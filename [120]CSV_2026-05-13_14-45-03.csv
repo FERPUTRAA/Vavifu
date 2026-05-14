@@ -1,0 +1,2 @@
+﻿ID,Protocol,Method,URL,Application,Code,Remote Address,Rewrite,Replay,Duration,Size
+120,HTTP/1.1,CONNECT,https://statistic.live.126.net,Chrome,200,220.197.34.75,No,No,1.460s,1.33 KB

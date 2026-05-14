@@ -1,0 +1,62 @@
+
+
+Request Head:
+
+GET /vite.svg HTTP/1.1
+Host: web.vava.chat
+Connection: keep-alive
+sec-ch-ua-platform: "Android"
+Save-Data: on
+User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+sec-ch-ua: "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"
+sec-ch-ua-mobile: ?1
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+Referer: https://web.vava.chat/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,id;q=0.8
+Cookie: vb_did=1778551306611_OuoKQJKhG0MA5SAg; vb_pwa_session=%7B%22userId%22%3A14186923%2C%22authToken%22%3A%221f3060ad97524a16824dd0154eb7b3d4%22%2C%22nimToken%22%3A%2294ec3828b8852283431255931e665b5b%22%2C%22displayName%22%3A%22userihXxke18%22%2C%22profilePicture%22%3A%22public%2Fapp%2Fvvh_default_avatar.png%22%2C%22genderType%22%3A1%2C%22ageValue%22%3A18%7D
+
+
+Body:
+
+
+
+Response Head:
+
+HTTP/1.1 404 Not Found
+Content-Type: text/html; charset=utf-8
+Content-Length: 363
+Connection: keep-alive
+Date: Thu, 14 May 2026 06:37:48 GMT
+Server: AmazonS3
+X-Cache: Error from cloudfront
+Via: 1.1 2626dcc6e4570f5ed36d6638cbba12da.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: CGK51-P4
+X-Amz-Cf-Id: NHhwOkGLJ8LldsCMBRW_2HSTf9yRJ3pzimr87ldC-J446mHP5Fqtvg==
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Referrer-Policy: strict-origin-when-cross-origin
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000
+Vary: Origin
+
+
+Body:
+
+<html>
+<head><title>404 Not Found</title></head>
+<body>
+<h1>404 Not Found</h1>
+<ul>
+<li>Code: NoSuchKey</li>
+<li>Message: The specified key does not exist.</li>
+<li>Key: vite.svg</li>
+<li>RequestId: MVBP9KBJG0NNBCTJ</li>
+<li>HostId: r09/sLwAEqXWpZvIqwSUwKiZdIOjmQjJrACCoKXfVfRN+qOxqDviShU39HLBs2vrW/HxAvSEIfCGz1Krf7vvQ9L7/TBfamZQ</li>
+</ul>
+<hr/>
+</body>
+</html>

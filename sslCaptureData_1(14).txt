@@ -1,0 +1,75 @@
+
+
+Request Head:
+
+GET /lbs/webconf.jsp?k=6607b59804ba4209159076ba3c11d37e&id=online_14186923&sv=180&pv=1&networkType=0&lv=1 HTTP/1.1
+Host: lbs.netease.im
+Connection: keep-alive
+sec-ch-ua-platform: "Android"
+Save-Data: on
+User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36
+sec-ch-ua: "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"
+Content-Type: application/json; charset=UTF-8
+sec-ch-ua-mobile: ?1
+Accept: */*
+Origin: https://web.vava.chat
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://web.vava.chat/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,id;q=0.8
+
+
+Body:
+
+
+
+Response Head:
+
+HTTP/1.1 200 
+Date: Thu, 14 May 2026 06:37:49 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Access-Control-Allow-Origin: https://web.vava.chat
+Access-Control-Expose-Headers: Access-Control-Allow-Origin, Access-Control-Allow-Credentials
+Access-Control-Allow-Credentials: true
+Content-Encoding: gzip
+
+
+Body:
+
+{
+	"common":{
+		"mix.link":[
+			"qchatweblink01-sg.netease.im:443",
+			"qchatweblink01-sg.netease.im:443"
+		],
+		"lbs.backup":[
+			"https://lbs-sdk.netease.im/lbs/webconf.jsp"
+		],
+		"link":[
+			"weblink01-sg.netease.im:443",
+			"weblink01-sg.netease.im:443",
+			"weblink01-sg.netease.im:443",
+			"weblink01-sg.netease.im:443"
+		],
+		"weblink":[
+			
+		],
+		"quiclink":[
+			
+		],
+		"lbs":"https://lbs.netease.im/lbs/webconf.jsp",
+		"link.default":[
+			"weblink01-sg.netease.im:443"
+		],
+		"desc":"online public env"
+	},
+	"nos-chunk":"https://wanproxy-web.127.net"
+}
