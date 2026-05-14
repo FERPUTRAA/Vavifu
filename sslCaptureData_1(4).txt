@@ -1,0 +1,94 @@
+
+
+Request Head:
+
+GET /api/v1/realtime/channel/connect/info HTTP/1.1
+Host: web.vava.chat
+Connection: keep-alive
+applicationLanguage: en
+sec-ch-ua-platform: "Android"
+deviceCategory: 0
+sec-ch-ua: "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"
+packageName: com.vava.chat.web
+accessToken: 2EeI8witURaAT+uRw9D3gQp3YH+TerC9FsTJuP/wKd8=
+sec-ch-ua-mobile: ?1
+baggage: sentry-environment=production,sentry-release=chat_h5%401.6.0,sentry-public_key=0ff69de69669bb6b08ecefb94db898f2,sentry-trace_id=0f3c135bf70a49409530d08543c432fa,sentry-transaction=discover,sentry-sampled=true,sentry-sample_rand=0.16592130165277397,sentry-sample_rate=0.5
+deviceId: 2b61d981-b45f-46ec-16ee-b63f4b71d186
+requestTimestamp: 1778740678883
+appPackageName: com.vava.chat.web
+appVersion: 1.0.0
+sentry-trace: 0f3c135bf70a49409530d08543c432fa-864ad02f9101af99-1
+Accept: application/json, text/plain, */*
+channel: vvh
+userLanguage: en-US
+authToken: 1f3060ad97524a16824dd0154eb7b3d4
+operatingPlatform: app
+randomNonce: 9Azkbnae
+Save-Data: on
+User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36
+userId: 14186923
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://web.vava.chat/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,id;q=0.8
+Cookie: vb_did=1778551306611_OuoKQJKhG0MA5SAg; vb_pwa_session=%7B%22userId%22%3A14186923%2C%22authToken%22%3A%221f3060ad97524a16824dd0154eb7b3d4%22%2C%22nimToken%22%3A%2294ec3828b8852283431255931e665b5b%22%2C%22displayName%22%3A%22userihXxke18%22%2C%22profilePicture%22%3A%22public%2Fapp%2Fvvh_default_avatar.png%22%2C%22genderType%22%3A1%2C%22ageValue%22%3A18%7D
+
+
+Body:
+
+
+
+Response Head:
+
+HTTP/1.1 200 
+Content-Type: application/json
+Content-Length: 600
+Connection: keep-alive
+X-Amz-Cf-Pop: CGK50-P1
+Date: Thu, 14 May 2026 06:38:20 GMT
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+Via: 1.1 81e01df3a9d9b3bf7c4fb8252327b67a.cloudfront.net (CloudFront), 1.1 1cca363823d960c2520bb660f481276a.cloudfront.net (CloudFront)
+X-Cache: Miss from cloudfront
+X-Amz-Cf-Pop: CGK51-P4
+X-Amz-Cf-Id: _q_7V1yWIvMRWhSW0EmywHQ7-3LtjT97V6OVb9Nf4pAsdZzrH1mdsA==
+
+
+Body:
+
+{
+	"data":{
+		"chatPageSummaryUnread":{
+			"couponUnreadCount":0,
+			"engagedRelationships":0,
+			"allVideoCallUnreadTotal":570,
+			"bannerList":[
+				
+			],
+			"bondCountValue":0,
+			"celiohysterotomyAustrophilism":0,
+			"hamitoidImportunator":0,
+			"stoutheartednessLightheaded":2,
+			"unreadFansCount":2,
+			"followerCount":0,
+			"unreadFollowCount":0,
+			"followersCount":0,
+			"followingUnreadMessagesCount":0,
+			"friendsCount":0,
+			"friendUnreadMessagesCount":0,
+			"missedVideoCallUnreadCountValue":0,
+			"oldChatRecommendDataTransferObject":{
+				
+			},
+			"relabelingHoplites":0,
+			"visitorsUnreadV2Count":5
+		},
+		"doNotDisturbStatus":false,
+		"infusion":false
+	},
+	"message":"success",
+	"status":200
+}

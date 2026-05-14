@@ -1,0 +1,205 @@
+
+
+Request Head:
+
+GET /api/v1/mission/male/page HTTP/1.1
+Host: web.vava.chat
+Connection: keep-alive
+applicationLanguage: en
+sec-ch-ua-platform: "Android"
+deviceCategory: 0
+sec-ch-ua: "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"
+packageName: com.vava.chat.web
+accessToken: 5fxWmbudj5nr5KPB4ofZBhHo4K/0msUYpm3SDbzUJec=
+sec-ch-ua-mobile: ?1
+baggage: sentry-environment=production,sentry-release=chat_h5%401.6.0,sentry-public_key=0ff69de69669bb6b08ecefb94db898f2,sentry-trace_id=5c52d27e480541d3be908111e4b7607a,sentry-transaction=bonus,sentry-sampled=false,sentry-sample_rand=0.5270862741263728,sentry-sample_rate=0.5
+deviceId: 2b61d981-b45f-46ec-16ee-b63f4b71d186
+requestTimestamp: 1778740665391
+appPackageName: com.vava.chat.web
+appVersion: 1.0.0
+sentry-trace: 5c52d27e480541d3be908111e4b7607a-a59af3949324b4d9-0
+Accept: application/json, text/plain, */*
+channel: vvh
+userLanguage: en-US
+authToken: 1f3060ad97524a16824dd0154eb7b3d4
+operatingPlatform: app
+randomNonce: wH3bgYzv
+Save-Data: on
+User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Mobile Safari/537.36
+userId: 14186923
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://web.vava.chat/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,id;q=0.8
+Cookie: vb_did=1778551306611_OuoKQJKhG0MA5SAg; vb_pwa_session=%7B%22userId%22%3A14186923%2C%22authToken%22%3A%221f3060ad97524a16824dd0154eb7b3d4%22%2C%22nimToken%22%3A%2294ec3828b8852283431255931e665b5b%22%2C%22displayName%22%3A%22userihXxke18%22%2C%22profilePicture%22%3A%22public%2Fapp%2Fvvh_default_avatar.png%22%2C%22genderType%22%3A1%2C%22ageValue%22%3A18%7D
+
+
+Body:
+
+
+
+Response Head:
+
+HTTP/1.1 200 
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Via: 1.1 ab80dbea0300e42fb1524d6c95942bb8.cloudfront.net (CloudFront), 1.1 c6c35be748f09cb1f760cda46ef336c6.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: CGK50-P1
+Date: Thu, 14 May 2026 06:37:49 GMT
+content-encoding: gzip
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+vary: Accept-Encoding
+X-Cache: Miss from cloudfront
+X-Amz-Cf-Pop: CGK51-P4
+X-Amz-Cf-Id: CtT0FIzJWWJ7PSAkAeJHMneAV5ddTAi83YO4yGpCFl-NGuGDHt4BTg==
+
+
+Body:
+
+{
+	"data":{
+		"bannerList":[
+			
+		],
+		"dailyBonusCount":0,
+		"tophesDeglycerin":[
+			{
+				"conditionList":[
+					{
+						"state":0,
+						"supines":4600,
+						"goalValue":5,
+						"goalDisplayValue":"5",
+						"oghamistFrizzier":0,
+						"procedureDisplay":"0",
+						"rewardItemList":[
+							{
+								"rewardPropQuantity":1,
+								"rewardPropertyType":2
+							}
+						],
+						"sortOrder":0,
+						"taskIdentifier":46
+					}
+				],
+				"eventIdentifier":9,
+				"arteriofibrosisUmbellulate":"iMee://open_discover_post_page",
+				"hexametrist":1,
+				"taskIdentifier":46,
+				"pageTitle":"Like 5 posts"
+			},
+			{
+				"conditionList":[
+					{
+						"state":0,
+						"supines":4700,
+						"goalValue":3,
+						"goalDisplayValue":"3",
+						"oghamistFrizzier":1,
+						"procedureDisplay":"1",
+						"rewardItemList":[
+							{
+								"rewardPropQuantity":1,
+								"rewardPropertyType":15
+							}
+						],
+						"sortOrder":0,
+						"taskIdentifier":47
+					}
+				],
+				"eventIdentifier":13,
+				"arteriofibrosisUmbellulate":"iMee://open_conversation_list",
+				"hexametrist":2,
+				"taskIdentifier":47,
+				"pageTitle":"Chat with 3 girls"
+			},
+			{
+				"conditionList":[
+					{
+						"state":0,
+						"supines":4800,
+						"goalValue":1,
+						"goalDisplayValue":"1",
+						"oghamistFrizzier":0,
+						"procedureDisplay":"0",
+						"rewardItemList":[
+							{
+								"rewardPropQuantity":2,
+								"rewardPropertyType":0
+							}
+						],
+						"sortOrder":0,
+						"taskIdentifier":48
+					}
+				],
+				"eventIdentifier":8,
+				"arteriofibrosisUmbellulate":"iMee://open_conversation_list",
+				"hexametrist":3,
+				"taskIdentifier":48,
+				"pageTitle":"Send any value gift"
+			},
+			{
+				"conditionList":[
+					{
+						"state":0,
+						"supines":4300,
+						"goalValue":1,
+						"goalDisplayValue":"1",
+						"oghamistFrizzier":0,
+						"procedureDisplay":"0",
+						"rewardItemList":[
+							{
+								"rewardPropQuantity":10,
+								"rewardPropertyType":0
+							}
+						],
+						"sortOrder":0,
+						"taskIdentifier":43
+					}
+				],
+				"eventIdentifier":6,
+				"arteriofibrosisUmbellulate":"iMee://open_conversation_list",
+				"hexametrist":4,
+				"taskIdentifier":43,
+				"pageTitle":"Make a private call"
+			},
+			{
+				"conditionList":[
+					{
+						"state":0,
+						"supines":4900,
+						"goalValue":3,
+						"goalDisplayValue":"3",
+						"oghamistFrizzier":0,
+						"procedureDisplay":"0",
+						"rewardItemList":[
+							{
+								"rewardPropQuantity":1,
+								"rewardPropertyType":2
+							}
+						],
+						"sortOrder":0,
+						"taskIdentifier":49
+					}
+				],
+				"eventIdentifier":2,
+				"arteriofibrosisUmbellulate":"iMee://browse_matching_screen",
+				"hexametrist":5,
+				"taskIdentifier":49,
+				"pageTitle":"Match 3 girls"
+			}
+		],
+		"newbieBonusCount":0,
+		"newbieTaskSetup":[
+			
+		],
+		"newbieTaskExpiry":1779156122000
+	},
+	"message":"success",
+	"status":200
+}
